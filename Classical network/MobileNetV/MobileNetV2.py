@@ -142,3 +142,4 @@ if __name__ == "__main__":
     # ImageNet：参数量=3,504,872（stride 不影响参数量）
     model_imagenet = MobileNetV2(num_classes=1000, first_stride=2).to(device)
     summary(model_imagenet, (3, 32, 32))
+#1000num_class 3x32x32 Total_parameters:3,504,872
