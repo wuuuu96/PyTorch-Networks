@@ -19,7 +19,17 @@
 
 **3.上采样(转置卷积和插值)**
 
-为什么要上采样：
+为什么要上采样：由于卷积网络会使输入的W和H变小,而FCN又要求输入的W,H和输出的W,H大小一致,这就需要上采样了。
+
+<img width="2025" height="1144" alt="image" src="https://github.com/user-attachments/assets/ddc252f3-278b-440b-8e1e-89b3a648943e" />
+
+<img width="2068" height="1074" alt="image" src="https://github.com/user-attachments/assets/c55670e8-3b5e-4fbc-939b-07659bc5c85d" />
+
+<img width="1933" height="749" alt="image" src="https://github.com/user-attachments/assets/ae5793d3-d8e8-41af-8412-2c7ae2f4cc10" />
+
+<img width="1947" height="1133" alt="image" src="https://github.com/user-attachments/assets/1a97be20-7fcc-4b56-99c6-506f5fd1dec2" />
+
+<img width="2068" height="1104" alt="image" src="https://github.com/user-attachments/assets/55f941ac-8b83-41e4-9dba-d3b136600170" />
 
 
 
