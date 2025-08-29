@@ -46,6 +46,8 @@ if __name__ == '__main__':
     print(summary(model,(1,28,28)))
 ```
 
+# 完整代码在Model.py文件
+
 ## **5.结果**
 
 <img width="808" height="531" alt="image" src="https://github.com/user-attachments/assets/ad1d2aa2-bcae-46cf-a3fd-a0fd2c7a6be5" />
