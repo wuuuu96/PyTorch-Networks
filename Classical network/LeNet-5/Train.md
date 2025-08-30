@@ -30,3 +30,5 @@ def train_val_process():
     val_dataloader = data.DataLoader(val_data,32,False,num_workers=0)
 
     return train_dataloader,val_dataloader
+```
+<img width="1217" height="468" alt="image" src="https://github.com/user-attachments/assets/d3a44348-6ac1-47ed-bf74-581663ba1444" />
