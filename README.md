@@ -1,7 +1,7 @@
 # PyTorch-Networks
 * **Classical network**
 
-   * AlexNet
+    * AlexNet
 
   * VGG
 
